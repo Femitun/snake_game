@@ -1,0 +1,2 @@
+body{align-items:center;background:#000;color:#fff;display:flex;font-family:sans-serif;height:100vh;justify-content:center;margin:0}.board{background:#111;border:2px solid #333;display:grid;grid-template-columns:repeat(20,1fr);grid-template-rows:repeat(20,1fr);height:400px;position:relative;width:400px}.snake{background:lime}.food{background:red}.game-over{font-size:2rem;left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}
+/*# sourceMappingURL=main.8a7eeee5.css.map*/
