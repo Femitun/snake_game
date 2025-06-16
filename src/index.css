@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.board {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #111;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  border: 2px solid #333;
+}
+
+.snake {
+  background: lime;
+}
+
+.food {
+  background: red;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
